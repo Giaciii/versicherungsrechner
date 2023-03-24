@@ -2,9 +2,9 @@
 
 | Bezeichnung    | Angaben        |
 | -------------- | ---------------|
-| Autoren:       |                |
-| Erstellt am:   |                |
-| Git-Repo-URL   | [Repo](https://gitlab.com/<projekt>) |
+| Autoren:       | Giacun         |
+| Erstellt am:   | 24.03.2023     |
+| Git-Repo-URL   | [Repo](https://github.com/Giaciii/ZooAppProg1/) |
 
 ---
 
