@@ -35,3 +35,9 @@ p {
 .ergebnis {
   display: block ruby;
 }
+
+/* Für die Positionierung des Fragezeichens
+.fragezeichen {
+  display: block;
+}
+*/
