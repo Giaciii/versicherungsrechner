@@ -37,7 +37,7 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 #### offen
 
-* [ ] 
+* [ ] Text für die Hilfe bei den Fragezeichen
 
 #### in Arbeit
 
