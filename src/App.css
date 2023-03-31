@@ -39,5 +39,9 @@ p {
 /* Für die Positionierung des Fragezeichens
 .fragezeichen {
   display: block;
+  display: ruby-text-container;
+  left: 15%;
+  position: relative;
+  bottom: 10%;
 }
 */

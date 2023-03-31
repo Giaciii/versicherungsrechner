@@ -37,20 +37,16 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 #### offen
 
-* [ ] Eingabefeld Versicherungswert
-* [ ] Eingabefeld Versicherungssumme
-* [ ] Eingabefeld Schaden
 * [ ] Dark und Light mode
 
 #### in Arbeit
 
-* [ ] Eingabefeld Versicherungswert
-* [ ] Eingabefeld Versicherungssumme
+* [ ] Eingabefeld Schaden
 
 #### erledigt
 
-* [ ] <Idee>
-* [ ] <Idee>
+* [x] Eingabefeld Versicherungssumme
+* [x] Eingabefeld Versicherungswert
 * [ ] <Idee>
 * [ ] <Idee>
 
