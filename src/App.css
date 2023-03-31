@@ -9,7 +9,7 @@ input {
   padding: 10px;
   border: none;
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 25px;
   width: 15%;
 }
 
@@ -36,12 +36,10 @@ p {
   display: block ruby;
 }
 
-/* Für die Positionierung des Fragezeichens
+/* Für die Positionierung des Fragezeichens */
 .fragezeichen {
-  display: block;
   display: ruby-text-container;
-  left: 15%;
+  left: 16%;
+  bottom: 10px;
   position: relative;
-  bottom: 10%;
 }
-*/
