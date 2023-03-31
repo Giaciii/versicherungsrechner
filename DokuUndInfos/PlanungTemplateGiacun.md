@@ -37,7 +37,7 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 #### offen
 
-* [ ] Text für die Hilfe bei den Fragezeichen
+* [ ] 
 
 #### in Arbeit
 
@@ -48,8 +48,8 @@ Ich informiere regelmässig über meine Tätigkeiten.
 * [x] Eingabefeld Versicherungssumme
 * [x] Eingabefeld Versicherungswert
 * [x] Eingabefeld Schaden
-* [ ] <Idee>
-
+* [x] Text für die Hilfe bei den Fragezeichen
+* [ ]
 
 ---
 

@@ -21,12 +21,12 @@ export default function Eingabefelder() {
     return (
         <div className='eingabe'>
             <form onSubmit={Rechnen}>
-                <span className='fragezeichen'>?</span>
+                <span className='fragezeichen' title='So viel, wie Sie der Verischung zahlen'>?</span>
                 <input type='number' placeholder='Versicherungssumme' value={vs} onChange={ (e) => setVs(e.target.value)}/>
                 <br />
-                <span className='fragezeichen'>?</span>
+                <span className='fragezeichen' title='Wie teuer wäre es, wenn Sie ihr gesamten Haushalt nochmals kaufen müssten'>?</span>
                 <input type='number' placeholder='Versicherungswert' value={vw} onChange={ (e) => setVw(e.target.value)}/>
-                <span className='fragezeichen'>?</span>
+                <span className='fragezeichen' title='Wie hoch ist der Schaden'>?</span>
                 <input type='number' placeholder='Schaden' value={schaden} onChange={ (e) => setSchaden(e.target.value) }/>
                 <input type='submit' value='Berechnen' />
                 <input type='button' value='Löschen' onClick={Clear}/>
