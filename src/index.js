@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const viewportHeight = window.innerHeight;
+document.getElementById('root').style.height = viewportHeight;
 root.render(
   <React.StrictMode>
     <App />
