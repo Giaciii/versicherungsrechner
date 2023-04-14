@@ -1,1 +1,1 @@
-Hier wird eine React Zooapp entwickelt.
+Hier wird ein Versicherungsrechner entwickelt.
