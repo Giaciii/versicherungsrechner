@@ -64,8 +64,14 @@ p {
 
 /* Für die Quadratische Schadensberechnung */
 
-.openQ {
-  border-bottom: 2px solid white;
+.collapsible .content {
+  padding: 6px;
+  background-color: #eeeeee;
+}
+.collapsible .header {
+  background-color: #dddddd;
+  padding: 6px;
+  cursor: pointer;
 }
 
 /* Footer */
