@@ -59,11 +59,17 @@ p {
 .dark {
   background-color:rgb(63, 65, 79);
   color: white;
+  height: 100%;
+}
+
+/* Für die Quadratische Schadensberechnung */
+
+.openQ {
+  border-bottom: 2px solid white;
 }
 
 /* Footer */
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 100%;
 }

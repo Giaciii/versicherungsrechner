@@ -42,6 +42,7 @@ Ich informiere regelmässig über meine Tätigkeiten.
 #### in Arbeit
 
 * [ ] Dark und Light mode
+* [ ] Quadratische Formel
 
 #### erledigt
 

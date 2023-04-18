@@ -14,9 +14,9 @@ export default function Mode({callback}) {
             callback(hintergrund);
         } else {
             setText('Dark');
-            //Farbe
+           //Farbe
             setHintergrund('light');
-            callback(hintergrund);
+            callback(hintergrund); 
         }
     }
 
