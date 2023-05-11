@@ -27,7 +27,7 @@ function Collapsible() {
 return (
     <div className="collapsible collaps_posi">
         <div className="header" {...getToggleProps()}>
-            {isExpanded ? 'Weitere Berechnungen schliessen' : 'Weitere Berechnungen öffnen'}
+            {isExpanded ? 'Weitere Versicherungen schliessen' : 'Weitere Versicherungen öffnen'}
         </div>
         <div {...getCollapseProps()}>
             <div className="content">
