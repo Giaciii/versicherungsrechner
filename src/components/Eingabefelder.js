@@ -8,19 +8,24 @@ export default function Eingabefelder() {
     const [info, setInfo] = useState('');
 
     const Rechnen = (event) => {
-        if ( vs > vw ) {
+        if ( vs === '' || vw === '' || schaden === '' ) {
             event.preventDefault();
-            setInfo('Sie haben eine Überversicherung.')
-            setEs(schaden);
+            setInfo('Bitte geben Sie alle Angaben an.');
         } else {
             if ( vs < vw ) {
                 event.preventDefault();
                 setInfo('Sie haben eine Unterversicherung.')
                 setEs(vs / vw * schaden);
             } else {
-                event.preventDefault();
-                setEs(vs / vw * schaden);
-                setInfo('');
+                if ( vs > vw ) {
+                    event.preventDefault();
+                    setInfo('Sie haben eine Überversicherung.')
+                    setEs(schaden);
+                } else {
+                    event.preventDefault();
+                    setEs(vs / vw * schaden);
+                    setInfo('');
+                }
             }
         }
     };

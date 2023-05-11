@@ -10,11 +10,13 @@ function Collapsible() {
     const [info, setInfo] = useState('');
 
     const Rechnen = (event) => {
-        if (vs === 'undefined' || vw === 'undefined') {
-            alert("STOOPPP")
+        if (vs === '' || vw === '') {
+            event.preventDefault();
+            setInfo('Bitte geben Sie alle Angaben an.');
         } else {
             event.preventDefault();
             setBe(vs * vw);
+            setInfo('');
         }
     };
 
