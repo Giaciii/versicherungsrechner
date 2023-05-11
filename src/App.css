@@ -26,6 +26,11 @@ p {
   font-weight: bold;
 }
 
+.submitHover:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
 .eingabe {
   position: relative;
   top: 100px;
@@ -34,6 +39,12 @@ p {
 
 .ergebnis {
   display: block ruby;
+  padding: 10px;
+}
+
+.infos {
+  color: rgb(229, 0, 0);
+  padding-left: 10px;
 }
 
 /* Für die Positionierung des Fragezeichens */
@@ -64,14 +75,22 @@ p {
 
 /* Für die Quadratische Schadensberechnung */
 
+.collaps_posi {
+  margin-top: 10%;
+  width: 55%;
+  margin-left: 5%;
+  padding: 10px;
+}
+
 .collapsible .content {
   padding: 6px;
-  background-color: #eeeeee;
+  color: white;
 }
 .collapsible .header {
-  background-color: #dddddd;
+  border-bottom: 2px solid white;
   padding: 6px;
   cursor: pointer;
+  color: rgb(255, 255, 255);
 }
 
 /* Footer */

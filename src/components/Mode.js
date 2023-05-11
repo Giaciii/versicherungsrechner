@@ -1,24 +1,35 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../App.css";
 
 export default function Mode({callback}) {
     const [text, setText] = useState('Light');
-    const [hintergrund, setHintergrund] = useState('rgb(63, 65, 79)')
+    const [hintergrund, setHintergrund] = useState('');
+
+    let erstesMal = true;
     
     function Dtol() { //Dark to Light und Text
         //Text
-        if (text == 'Dark') {
-            setText('Light');
+
+
+        if (text == 'Light') {
+            setText('Dark');
             //Farbe
-            setHintergrund('dark');
+            setHintergrund('light');
             callback(hintergrund);
         } else {
-            setText('Dark');
+            setText('Light');
            //Farbe
-            setHintergrund('light');
+            setHintergrund('dark');
             callback(hintergrund); 
         }
+        
     }
+
+    // Damit die Farbe beim ersten Mal gändert wird
+    useEffect(() => {
+        callback(hintergrund);
+    }, [hintergrund, callback]);
+
 
     return (
         <button className='dark_light' onClick={Dtol}>{text}</button>

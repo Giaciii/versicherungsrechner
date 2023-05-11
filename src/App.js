@@ -12,7 +12,7 @@ function App() {
     <div className={hintergrund}>
       <Mode callback={setHintergrund}/>
       <Eingabefelder />
-      <Quadra />
+      <Quadra/>
       <Footer />
     </div>
   );
