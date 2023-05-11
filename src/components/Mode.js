@@ -4,13 +4,9 @@ import "../App.css";
 export default function Mode({callback}) {
     const [text, setText] = useState('Light');
     const [hintergrund, setHintergrund] = useState('');
-
-    let erstesMal = true;
     
     function Dtol() { //Dark to Light und Text
         //Text
-
-
         if (text == 'Light') {
             setText('Dark');
             //Farbe
@@ -20,16 +16,14 @@ export default function Mode({callback}) {
             setText('Light');
            //Farbe
             setHintergrund('dark');
-            callback(hintergrund); 
-        }
-        
+            callback(hintergrund);
+        }      
     }
 
     // Damit die Farbe beim ersten Mal gändert wird
     useEffect(() => {
         callback(hintergrund);
     }, [hintergrund, callback]);
-
 
     return (
         <button className='dark_light' onClick={Dtol}>{text}</button>

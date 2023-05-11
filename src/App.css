@@ -88,14 +88,13 @@ p {
 
 .collapsible .content {
   padding: 6px;
-  color: white;
 }
+
 .collapsible .header {
   border-bottom: 2px solid white;
   width: 55%;
   padding: 6px;
   cursor: pointer;
-  color: rgb(255, 255, 255);
 }
 
 /* Footer */
