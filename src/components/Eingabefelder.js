@@ -12,14 +12,12 @@ export default function Eingabefelder() {
             event.preventDefault();
             setInfo('Sie haben eine Überversicherung.')
             setEs(schaden);
-            console.log("Überversicherung")
         } else {
             if ( vs < vw ) {
                 event.preventDefault();
                 setInfo('Sie haben eine Unterversicherung.')
                 setEs(vs / vw * schaden);
             } else {
-                console.log("Rechnung")
                 event.preventDefault();
                 setEs(vs / vw * schaden);
                 setInfo('');
@@ -37,6 +35,9 @@ export default function Eingabefelder() {
 
     return (
         <div className='eingabe'>
+            <p className='titel'>
+                Versicherungsrechner als Versicherungssummenmodell
+            </p>
             <form onSubmit={Rechnen}>
                 <span className='fragezeichen' title='Den Betrag, den Sie mit der Versicherung abgemacht haben.'>?</span>
                 <input type='number' placeholder='Versicherungssumme' value={vs} min='0' onChange={ (e) => setVs(e.target.value)}/>

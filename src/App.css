@@ -51,6 +51,10 @@ p {
   padding-left: 10px;
 }
 
+.titel {
+  font-size: 20pt;
+}
+
 /* Für die Positionierung des Fragezeichens */
 .fragezeichen {
   display: ruby-text-container;
