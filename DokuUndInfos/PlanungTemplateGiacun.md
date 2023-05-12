@@ -41,8 +41,8 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 #### in Arbeit
 
-* [ ] Dark und Light mode
-* [ ] Quadratische Formel
+* [ ]
+* [ ] 
 
 #### erledigt
 
@@ -50,7 +50,8 @@ Ich informiere regelmässig über meine Tätigkeiten.
 * [x] Eingabefeld Versicherungswert
 * [x] Eingabefeld Schaden
 * [x] Text für die Hilfe bei den Fragezeichen
-* [ ]
+* [x] Quadratische Formel
+* [x] Dark und Light mode
 
 ---
 
