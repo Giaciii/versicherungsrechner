@@ -110,6 +110,15 @@ p {
   cursor: pointer;
 }
 
+/* Bilder */
+
+.bild {
+  position: absolute;
+  left: 70%;
+  top: 100px;
+  width: 400px;
+}
+
 /* Footer */
 
 .footer {
