@@ -33,7 +33,7 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 ## Liste der Arbeiten, die ich am erledigen bin
 
-* Zeitraum: 24.03.2023 - 21.04.2023
+* Zeitraum: 24.03.2023 - 12.05.2023
 
 #### offen
 
