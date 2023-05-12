@@ -122,5 +122,6 @@ p {
 /* Footer */
 
 .footer {
+  text-align: center;
   margin-top: 100%;
 }
