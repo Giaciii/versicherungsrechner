@@ -24,10 +24,10 @@ Ich informiere regelmässig über meine Tätigkeiten.
 
 ## Liste der noch anstehenden Ideen
 
-* [ ] Eingabefeld Versicherungswert
-* [ ] Eingabefeld Versicherungssumme
-* [ ] Eingabefeld Schaden
-* [ ] Dark und Light mode
+* [ ]
+* [ ] 
+* [ ] 
+* [ ] 
 
 ---
 
